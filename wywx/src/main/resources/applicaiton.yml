@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+  http:
+    encoding:
+      force: true # 强制开启UTF8编码
+      charset: UTF-8
+      enabled: true
+
+server:
+  tomcat:
+    uri-encoding: UTF-8
